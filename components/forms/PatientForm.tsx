@@ -90,7 +90,7 @@ const PatientForm = () => {
         placeholder="123456789"
         />
 
-        <SubmitButton isLoading={isLoading}>Get Started</SubmitButton>
+        <SubmitButton isLoading={isLoading}>Continuar</SubmitButton>
       </form>
     </Form>
   )
