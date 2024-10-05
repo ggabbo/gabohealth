@@ -71,7 +71,7 @@ const PasskeyModal = () => {
         <AlertDialogContent className="shad-alert-dialog">
             <AlertDialogHeader>
             <AlertDialogTitle className="flex items-start justify-between">
-                Admin Access Verification
+                Verificação de acesso do Admin
                 <Image 
                    src="/assets/icons/close.svg"
                    alt="close"
@@ -82,7 +82,7 @@ const PasskeyModal = () => {
                 />
             </AlertDialogTitle>
                 <AlertDialogDescription>
-                    To access the admin page, please enter the passkey.
+                    Insira a Chave de Acesso para adentrar o painel do Admin.
                 </AlertDialogDescription>
             </AlertDialogHeader>
                 <div>
@@ -105,7 +105,7 @@ const PasskeyModal = () => {
             <AlertDialogFooter>
             <AlertDialogAction onClick={(e) => validatePasskey(e)}
             className="shad-primary-btn w-full">
-                Enter Admin Passkey
+                Inserir Chave de Acesso do Admin
             </AlertDialogAction>
             </AlertDialogFooter>
         </AlertDialogContent>
