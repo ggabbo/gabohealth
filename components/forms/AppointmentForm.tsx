@@ -25,7 +25,7 @@ const AppointmentForm = ({
 }: {
     userId: string;
     patientId: string;
-    type: "criar" | "cancelar" | "agendar";       // SCHEDULE = AGENDAR //
+    type: "criar" | "cancelar" | "agendar";
     appointment?: Appointment;
     setOpen: (open: boolean) => void;
 }) => {
